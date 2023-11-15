@@ -29,3 +29,6 @@ else
     sed -i -e '/^JAVA_OPTS/s/-Xmx[^ ]*/-Xmx'"$NORMAL_HIP_SIZE"'g/' /tomcat/bin/catalina.sh
     sed -i -e '/^JAVA_OPTS/s/-Xms[^ ]*/-Xms'"$NORMAL_HIP_SIZE"'g/' /tomcat/bin/catalina.sh
 fi
+
+
+#partow
